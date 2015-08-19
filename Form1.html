@@ -1,0 +1,38 @@
+<html DOCTYPE!>
+ <head>
+ 	<title>Feedback form</title>
+ </head>
+ <body>
+	<form action="send-email.php" method="post"> 
+ 	  What is your name 
+	<br>
+ 	  <input type="text" name="yourname" size="25" maxlenght="40">
+	<br><br>
+ 	   How did you found me?
+	<br>
+ 	  <input type="radio" name="found-thru" value="blog" checked="checked">Blog
+      <input type="radio" name="found-thru" value="google">Google
+ 	  <input type="radio" name="found-thru" value="friend">Friend
+	<br><br>
+  	   How do you find my code?
+	<br>
+ 	  <input type="checkbox" name="feedback" value="nice" checked="checked">Nice
+ 	  <input type="checkbox" name="feedback" value="wonderful">Wonderful
+ 	  <input type="checkbox" name="feedback" value="amazing">F*** amazing 
+	<br> <br>
+	  Do you want to know me?
+	<br>
+	 <select name="meet-me">
+	 	<option value="Y">Yes</option>
+	 	<option value="O">Of course</option>
+	 </select>
+	<br><br>
+  	  Message:
+	<br>
+ 	 <textarea name="message" rows="4" cols="50">
+ 	 </textarea>
+	<br><br>
+ 	 <input type="submit" value="Send email">
+  </form>
+ </body>
+</html>
