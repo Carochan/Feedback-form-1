@@ -1,0 +1,14 @@
+body {
+  background-color: #FFE2E9;
+}
+
+form {
+	width: 50%;
+	margin: auto;
+	font-family: verdana, sans-serif, Times;
+	font-size: 1em;
+}
+input [type ="text"], textarea {
+	font-size: 2em;
+	padding: .25em;
+}
