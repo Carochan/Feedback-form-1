@@ -5,36 +5,45 @@
  </head>
  <body>
 	<form action="send-email.php" method="post">
- 	  What is your name
-	<br>
- 	  <input type="text" name="yourname" size="25" maxlenght="40">
-	<br><br>
- 	   How did you find me?
-	<br>
- 	  <input type="radio" name="found-thru" value="blog" checked="checked">Blog
-      <input type="radio" name="found-thru" value="google">Google
- 	  <input type="radio" name="found-thru" value="friend">Friend
-	<br><br>
-  	   How do you find my code?
-	<br>
- 	  <input type="checkbox" name="feedback" value="nice" checked="checked">Nice
- 	  <input type="checkbox" name="feedback" value="wonderful">Wonderful
- 	  <input type="checkbox" name="feedback" value="amazing">F*** amazing
-	<br> <br>
-	  Do you want to know me?
-	<br>
-	 <select name="meet-me">
-	 	<option value="Y">Yes</option>
-	 	<option value="O">Of course</option>
-	 </select>
-	<br><br>
-  	  Message:
-	<br>
- 	 <textarea name="message" rows="4" cols="50">
- 	 </textarea>
-	<br><br>
- 	 <input type="submit" value="Send email">
+		<fieldset>
+			<legend>Your details</legend>
+ 	  			What is your name
+	 			<br>
+ 	   			<input type="text" name="yourname" size="25" maxlenght="40">
+ 	    </fieldset>
+	 	<br><br>
+	 	<fieldset>
+	 		<legend>Pure curiosity</legend>
+ 	  		 	How did you find me?
+	 			<br>
+ 	   			<input type="radio" name="found-thru" value="blog" checked="checked">Blog
+       			<input type="radio" name="found-thru" value="google">Google
+ 	   			<input type="radio" name="found-thru" value="friend">Friend
+ 	 	</fieldset>
+	 	<br><br>
+	 	<fieldset>
+	 		<legend>The test of the mindset</legend>
+  	  			How do you find my code?
+	 			<br>
+ 	   			<input type="checkbox" name="feedback" value="nice" checked="checked">Nice
+ 	   			<input type="checkbox" name="feedback" value="wonderful">Wonderful
+ 	   			<input type="checkbox" name="feedback" value="amazing">F*** amazing
+		 <br> <br>
+	  			Do you want to know me?
+	 			<br>
+	   			<select name="meet-me">
+	 	  			<option value="Y">Yes</option>
+	 	  			<option value="O">Of course</option>
+	   			</select>
+	   	</fieldset>		
+	 	<br><br>
+  	  	Message:
+	 	<br>
+ 	   		<textarea name="message" rows="4" cols="50">
+ 	   		</textarea>
+	 	<br><br>
+ 	   		<input type="submit" value="Send email">
   </form>
-  <img src ="images/kawaii.png">
+  <img style="display:block;margin:0 auto 0 auto;" src="images/kawaii.png" alt="The happy potatoe"> 
  </body>
 </html>
